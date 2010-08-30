@@ -3,10 +3,10 @@ use base qw/DBIx::Class::Schema/;
 use strict;
 
 BEGIN {
-    our $VERSION     = '0.02';
+    our $VERSION     = '0.03';
 }
 
-__PACKAGE__->load_classes(qw/ host Application LuLocation LuApplication virtAssetNo luHobbitPage luAssetType HobbitPages/);
+__PACKAGE__->load_classes(qw/ host hoststatus Application LuLocation LuApplication virtAssetNo luHobbitPage luAssetType HobbitPages/);
   
 1;
   

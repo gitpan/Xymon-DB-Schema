@@ -8,6 +8,7 @@ lib/Xymon/DB/Schema.pm
 lib/Xymon/DB/Schema/Application.pm
 lib/Xymon/DB/Schema/HobbitPages.pm
 lib/Xymon/DB/Schema/host.pm
+lib/Xymon/DB/Schema/hoststatus.pm
 lib/Xymon/DB/Schema/LuApplication.pm
 lib/Xymon/DB/Schema/luAssetType.pm
 lib/Xymon/DB/Schema/luHobbitPage.pm
