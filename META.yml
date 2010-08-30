@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Xymon-DB-Schema
-version:            0.03
+version:            0.04
 abstract:           Group of Schemas for Xymon
 author:
     - David Peters (davidp@electronf.com)

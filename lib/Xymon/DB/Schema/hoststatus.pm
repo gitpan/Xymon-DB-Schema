@@ -3,7 +3,7 @@ use base qw(DBIx::Class::Core);
 
 
   __PACKAGE__->table('hoststatus');
-  __PACKAGE__->add_columns(qw/hostname recordstatus status/);
+  __PACKAGE__->add_columns(qw/hostname recordstatus hoststatus/);
   __PACKAGE__->set_primary_key(qw/hostname/);
   __PACKAGE__->resultset_class( 'DBIx::Class::ResultSet::HashRef' );
  
